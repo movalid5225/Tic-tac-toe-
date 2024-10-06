@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:50px;
+    background-color: rgb(92, 69, 69);
+}
+
+#board{
+    display: grid;
+    width:500px;
+    height: 400px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    border-radius: 15px;
+}
+
+#board .cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    border:2px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#reset-button{
+    border: 2px solid black;
+    border-radius: 10px;
+    width:100px;
+    height: 50px;
+    font-size: 25px;
+
+}
